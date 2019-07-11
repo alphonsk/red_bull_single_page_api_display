@@ -1,0 +1,319 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+#marquee {
+    display: block;
+    background-color: red;
+    width: 100%;
+    margin: 0;  
+}
+
+#nav::after {
+    display: block;
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#menu {
+    float: left;
+    width: 25%;
+    height: 70px;
+    padding: 5px;
+}
+
+#logo {
+    float: left;
+    width: 50%;
+    height: 70px;
+    padding: 5px;
+}
+
+#shopCart {
+    float: left;
+    width: 25%;
+    height: 70px;
+    padding: 5px;
+}
+
+#homeImg {
+    display: block;
+    height: 250px;
+    width: 100%;
+    border: 0px;
+}
+
+#img1 {
+    max-width: 100%;
+    height: auto;
+}
+
+#special {
+    height: 190px;
+    width: 100%;
+    background-color: #001941;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 15px;  
+}
+
+#shop {
+    height: 50px;
+    width: 160px;
+    border: solid white 3px;
+    padding: 10px; 
+    margin-left: auto ;
+    margin-right: auto ;
+}
+
+/*  */
+#container { 
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+
+
+/* ITEMS */
+.img {
+    padding-bottom: 20px;
+    padding:10px ;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto; 
+    /* max-width: 390px;  */
+}
+
+/*product IMAGE*/
+img{
+    max-width: 390px;
+}
+
+#title {
+    /* max-width: 390px; */
+    width: auto;
+    text-align: center; 
+    font-size: 22px;
+    
+}
+
+#info {
+    width: auto;
+    /* max-width: 390px; */
+    padding-top: 5px;
+}
+
+ 
+#team {
+    height:auto;
+    width: 100%;
+    background-color: #FAFAFA;
+     
+}
+
+#teamImg1 {
+    height: 160px;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+
+/*--RED BLOCK    */
+#red::after {
+    display: block;
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#tday {
+    float: left;
+    width: 33.33%;
+    height: 70px;
+    padding-top: 5px;
+    background-color: #DF0101;  
+}
+
+#deliver {
+    float: left;
+    width: 33.33%;
+    height: 70px;
+    padding-top: 5px;
+    background-color: #DF0101;
+}
+
+#contact {
+    float: left;
+    width: 33.33%;
+    height: 70px;
+    padding-top: 5px;
+    background-color: #DF0101;
+}
+
+ /* BOTTOM BLUE BLOCK    */
+#mainContact{
+    background-color: #001941;
+    padding: 20px;
+} 
+
+#email, #help, #social {
+    padding: 20px;
+}
+
+#footer{
+    background-color: #001941;
+    padding: 20px;
+    border: solid 1px black;
+
+}
+
+
+
+/*  600px SCREEN SIZE*/
+@media screen and (min-width: 600px) {
+
+/* ITEMS */
+.img {
+    padding-bottom: 20px;
+    padding:10px ;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+/*product IMAGE*/
+img{
+    max-width: 390px;
+}
+
+#title { 
+    width: auto;
+    text-align: center; 
+    font-size: 22px;
+    
+}
+
+#info {
+    width: auto; 
+    padding-top: 5px;
+}
+
+}
+
+
+/*  700px SCREEN SIZE*/
+@media screen and (min-width: 750px) {
+    #logo {
+        float: left;
+        width: 50%;
+        height: 70px;
+        padding: 5px;
+        padding-left: 70px;
+    }
+    
+    
+    #shopCart {
+        padding-left: 85px;
+    }
+    
+    #homeImg {
+        height: 450px;
+    }
+    
+    
+    #special {
+        height: 290px;
+        padding-top: 75px;  
+    }
+    
+    #shop {
+        margin-top: 30px; 
+    }
+    
+    /* ITEMS */
+    .img {
+        padding-bottom: 20px;
+        padding:20px ;
+        width: 48%;
+        /* max-width: 370px; */
+        display: inline-block;
+        vertical-align: top;
+    }
+    
+    /*product IMAGE*/
+  
+    
+    #team {
+      padding-top: 10px;
+    }
+    
+    #teamImg1 {
+        height: 260px;
+        width: 30%;
+        padding: 10px;
+        display: inline-block;
+    }
+    
+    
+    /* BOTTOM BLUE BLOCK    */
+    #mainContact{
+        height: 200px; 
+    }
+    
+    #email, #help, #social {
+        padding: 50px;
+        max-width: 30%;
+        display: inline-block;
+    }
+   
+    
+   /* 1200px SCREEN SIZE*/
+@media screen and (min-width: 1200px) {
+    #marquee {
+        
+        background-color: green;
+       
+    }
+    
+    
+    #shopCart {
+        padding-left: 155px;
+    }
+    
+    #homeImg {
+        height: 600px;
+    }
+    
+    
+    #special {
+        height: 300px;
+        padding-top: 75px;  
+    }
+    
+    #collection {
+        margin: 30px;
+        font-size: 23px;
+    }
+    
+    /* ITEMS */
+    .img {
+        margin-left: 10px;
+        padding:30px ;
+        width: 32%;
+        /* max-width: 460px;  */
+    }
+   
+    
+    /* BOTTOM BLUE BLOCK    */
+    #mainContact{
+        height: 300px; 
+    }
+    
+  
+}
+}
